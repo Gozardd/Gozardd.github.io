@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Blog sobre Javascript</title>
+</head>
+<body>
+    <nav class="navegador">
+        <div class="nav-1">
+            <img src="img/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="logo">
+            <div class="nav-separador"></div>
+            <h1 class="tittle">Javascript</h1>
+        </div>
+        <div class="nav-2">
+            <button class="btn btn-warning integrantes"><label for="boton-modal1">Integrantes</label></button>
+            <button class="btn btn-warning archivo"><a href="img/Ensayo Tercer parcial Henyer Molina Jahdiel Arciniegas.pdf" download>Archivo Pdf</a></button>
+        </div>
+    </nav>
+    <input type="checkbox" id="boton-modal1">
+    <div class="contenedor-modal1">
+        <div class="contenido-modal1">
+            <div class="header-modal1"><h4>Integrantes del Grupo</h4></div>
+            <div class="body-modal1">
+                <div class="jahdiel">
+                    <img src="img/Imagen de WhatsApp 2022-11-12 a las 23.02.15.jpg" alt="">
+                    <h5>Jahdiel Arciniegas</h5>
+                </div>
+                <div class="henyer">
+                    <img src="img/photo_2023-04-19_17-38-56.jpg" alt="">
+                    <h5>Henyer Molina</h5>
+                </div>
+            </div>
+            <div class="footer-modal1"><button class="btn btn-outline-danger"><label for="boton-modal1">Salir</label></button></div>
+        </div>
+    </div>
+    <section class="contenido">
+        <div class="container">
+            <div class="slider">
+                <i class="bi bi-arrow-left-short flechas" id="before"></i>
+                <div class="imagenes">
+                    <div class="pagina pagina--show" data-id="1" >
+                        <img src="img/Ensayo Tercer parcial Henyer Molina Jahdiel Arciniegas-1.png" alt="">
+                    </div>
+                    <div class="pagina" data-id="2">
+                        <img src="img/Ensayo Tercer parcial Henyer Molina Jahdiel Arciniegas-2.png" alt="">
+                    </div>
+                    <div class="pagina" data-id="3">
+                        <img src="img/Ensayo Tercer parcial Henyer Molina Jahdiel Arciniegas-3.png" alt="">
+                    </div>
+                    <div class="pagina" data-id="4">
+                        <img src="img/Ensayo Tercer parcial Henyer Molina Jahdiel Arciniegas-5.png" alt="">
+                    </div>
+                    <div class="pagina" data-id="5">
+                        <img src="img/Ensayo Tercer parcial Henyer Molina Jahdiel Arciniegas-4.png" alt="">
+                    </div>
+                </div>
+                <i class="bi bi-arrow-right-short flechas" id="after"></i>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="agradecimiento container">
+            <img src="img/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="logo">
+            <p class="Gracias h4">Gracias por leer y acompañarnos en la culminacion de nuestra primera etapa universitaria</p>
+            <p class="h4">numeros de cedula: 30.853.337 & 31.098.304</p>
+            <p class="copy h4">Todos los Derechos Reservados 2023</p>
+        </div>
+    </footer>
+</body>
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
+></script>
+<script src="javascript/slider.js"></script>
+</html>
